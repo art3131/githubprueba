@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navigation-container {
+    position: fixed;
+    background-color: #352d2f;
+    display: fixed;
+    
+    justify-content: space-between;
+}
+
+ul {
+    display: fixed;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 5px 15px;
+    opacity: 0.7;
+    text-align: center;
+    float:right;
+    display:block;
+}
+

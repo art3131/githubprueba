@@ -1,0 +1,8 @@
+html,
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: hsl(0, 87%, 38%);
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}

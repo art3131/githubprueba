@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+}
+
+.header-img { 
+
+  vertical-align: top;
+  width: 50px;
+    height: 50px;
+    margin-right: 0px;
+    margin-top: 0;
+    margin-left: 0;
+
+  }
+
+.nav-bar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+
+}
+
+ 
+.div-main{
+margin-left:25%;  justify-content: center;
+margin-top: 10%;
+}
+
+.nav-link {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: 0;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: pink;
+  }
+}
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.header-img{
+  width:75px;
+height: 50px;
+
+}
+
+.div-container{
+  display: Flex;
+  }
+  
+.div1 {
+  background-color: yellow;
+  margin: 10px;
+  padding: 20px;
+  font-size: 10px;
+  
+  
+}
+
+h2{
+  text-align: center; 
+}
+
+.div1 p {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+#button {
+justify-content: center;
+text-align: center;
+padding: 10px 15px;
+margin-left: 15%;
+}

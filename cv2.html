@@ -1,0 +1,129 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel=”stylesheet” type=”text/css” href="cvestilo.css" />
+    <link rel="stylesheet" type=”text/css” href="all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://randomuser.me/api/portraits/men/61.jpg" />
+    <script src="https://kit.fontawesome.com/8f5214fdc2.js" crossorigin="anonymous"></script>
+</head>
+ 
+<body>
+    <div class="full">
+        <div class="izquierda">
+            <div class="Foto">
+                <img src=https://randomuser.me/api/portraits/med/men/75.jpg alt="Foto de perfil "  style="width:150px;height: 150px;">
+            </div>
+            <div class="Contacto">
+                <h2>Contacto</h2>
+                    <h3><i class="fa-solid fa-envelope"></i>Email: <p id="email"  style="display: none"> christian.long@example.com </p> <button type="button" id="boton_mostrar1" ><i class="fa-solid fa-envelope"></i> Mostrar correo electronico </button> </h3>
+                   <h3><i class="fa-solid fa-phone"></i>  Numero de Telefono : <p id="telefono"  style="display: none"> (684) 744-6067</p> <button type="button" id="boton_mostrar2" > <i class="fa-solid fa-phone"></i> Mostrar número de contacto  </button> </h3>
+
+                        
+            </div>
+            
+            <div class="Habilidades">
+                <h2><i class="fa-solid fa-brain"></i>Habilidades</h2>
+                <ul>
+                    <li><b>Frontend : HTML5, CSS,
+                      JavaScript,</b></li>
+                    </ul>
+            </div>
+            
+            <div class="Idiomas">
+                <h2><i class="fa-solid fa-language"></i>Idiomas</h2>
+                <ul>
+                    <li>Español</ol></li>
+                    <li>Ingles</li>
+                </ul>
+            </div>
+            
+            <div class="Pasatiempos">
+                <h2> <i class="fa-solid fa-gamepad"></i> Pasatiempos</h2>
+                <ul>
+                    <li>Estudio de programación.</li>
+                    <li>Gimnacion.</li>
+                    <li>Música</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="derecha"> 
+            <div class="Nombre">
+                <h1>Christian Long</h1>        
+            </div>
+
+           <div Class="Nacimiento">
+                <h3><i class="fa-solid fa-cake-candles"></i> Fecha de nacimiento: 12/6/1987</h3>
+           </div>
+
+            <div class="Direccion">
+                <h3> <i class="fa-solid fa-location-dot"></i></i> Domicilio: 5774 Photinia Ave </h3> 
+            </div>
+            
+            <div class="Educacion">
+                <h2><i class="fa-solid fa-graduation-cap"></i>Educacion</h2>
+                    <h3>Secundario</h3>
+                    <h3>Graduacion: 2012 </h3>
+                    <h3>Titulo: Bachillerato especializado en analisis de sistema  </h3>
+                    <h3>Estudiante de Facultad de Ciencias Exactas.</h3>
+                </div>
+
+
+
+            <div class="Resumen">
+                <h2><i class="fa-sharp fa-solid fa-file"></i> Resumen</h2>
+                <p>Estudiante de facultad quien busca ingresar en empresa que se dedique al desarrollo web, para poder ganar experiencia y expander su horizonte laboral.
+                </p>
+            </div>
+
+            <div class="Experiencia">
+                <h2><i class="fa-solid fa-briefcase"></i>Experiencia Laboral</h2>
+                <p>Empresa de Prueba S.A. , Junior Frontend Developer</p>
+                <p>Julio 2022, presente</p>
+                <p>Diseño y desarrollo activo de Web</p>
+                </div>
+
+            
+
+            <div class="Proyectos">
+                <ul>
+                    <li>
+                        <h3>Proyecto1</h3>
+                        <p>Proyecto basado en html</p>
+                        </li>   
+
+                    <li>
+                        <h3>Diseño de CV</h3>
+                        <p>Proyecto basado en html integrado con Javascript y CSS</p>
+                    </li>
+
+                </ul>
+            </div>
+            <p >Ponerse en contacto</p> <button type="button" id="boton_mostrar3" > Haga click para ponerse en contacto con el aspirante al puesto. </button>
+            <!-- fuente: https://desarrolloweb.com/articulos/650.php 
+            de ahi saque el codigo para enviar mail desde el cv  -->
+            <form action="mailto:arturh313@gmail.com" method="post" enctype="text/plain" id="contactar"    style="display:none";>
+                <ul>
+                        <li><label for="Nombre1"> Nombre: </label></li>
+                        <li><input id="Nombre1" name="nombre" placeholder="Ingrese su nombre" type="text" /></li>
+                        <li><label> Mensaje</label></li>
+                        <li><textarea id="Mensaje " name="Mensaje" placeholder="Escriba su mensaje" cols="70" rows="3" ></textarea></li>
+                        <br>
+                        <input type="reset" value="Borrar">
+                        <input type="Submit" value="Enviar"  > 
+                        
+                        <br>
+                </ul>
+            </form>
+        </div>
+    </div>
+    
+    <script src="C:\Users\art\Desktop\html\cv\funcionescv.js"></script>
+</body>
+
+ 
+</html>
